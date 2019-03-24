@@ -1,0 +1,51 @@
+h1{
+  text-align: center;
+  color: grey;
+  font-weight: 700;
+  font: 60;
+}
+p
+{
+  text-align: center;
+  font-size: 30px;
+}
+.submit{
+  margin:0 auto;
+  width: 600px;
+  height: 400px;
+  border: 3px solid #73AD21;
+
+}
+.inside {
+
+  top: 80px;
+  width: 300px;
+  margin:0 auto;
+  border: 3px solid #37AD59;
+  padding:20px
+}
+@media only screen and (max-width: 768px) {
+  /* For mobile phones: */
+  p
+  {
+    text-align: center;
+    font-size: 30px;
+    color:white;
+  }
+  .submit{
+    margin:0 auto;
+    width: 300px;
+    height: 400px;
+    border: 3px solid #73AD21;
+
+  }
+  .inside {
+
+    top: 80px;
+    width: 200px;
+    margin:0 auto;
+    border: 3px solid #37AD59;
+    padding:20px
+  }
+  
+}
