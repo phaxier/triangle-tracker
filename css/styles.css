@@ -16,6 +16,9 @@ p
   border: 3px solid #73AD21;
 
 }
+body{
+  background-size: cover;
+}
 .inside {
 
   top: 80px;
@@ -47,5 +50,9 @@ p
     border: 3px solid #37AD59;
     padding:20px
   }
-  
+
+}
+form{
+  color: lime;
+
 }
