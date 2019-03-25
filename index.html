@@ -4,6 +4,7 @@
     <meta charset="utf-8">
     <title>Triangle Tracker</title>
     <link rel="stylesheet" href="css/styles.css"styles="text/css"mediall="text/css">
+    <script src="js/script.js"></script>
   </head>
   <body>
 <h1><strong>Triangle Tracker</strong></h1>
@@ -27,43 +28,13 @@
     <input type='number' id="num3" >
     <br>
     <br>
-    <button type="submit" id="result">Submit </button>
+    <button type="submit" id="result" onclick="triangleTracker()">Submit </button>
 
 </form>
       </div>
 
 </div>
 
-
-<script type="text/javascript">
-
-document.getElementById('result').addEventListener('click',function(){
-
-  var number1 = document.getElementById('num1').value;
-  var number2 = document.getElementById('num2').value;
-  var number3 = document.getElementById('num3').value;
-
-  if (number1==0 || number2==0 || number3==0){
-    alert("Error, a triangle must have a definate lengt")
-  }
-
-  else if(number1+number2>number3 && number2+number3>number1 && number1+number3>number2 && number1===number2 && number2===number3 ){
-    alert('Equilateral Triangle')
-  }
-  else if(number1+number2>number3 && number2+number3>number1&&number1+number3>number2 &&number1===number2||number2===number3||number1===number3){
-    alert("Isoscelese Triangle")
-
-  }
-  else if(number1+number2>number3 && number1+number3>number2 && number1!=number2!=number3){
-  alert ("Scalene Triangle")
-  }
-  else
-  {
-    alert("Not a Triangle")
-  }
-})
-
-</script>
 </body>
 
 </html>
